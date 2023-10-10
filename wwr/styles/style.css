@@ -1,0 +1,157 @@
+
+<body>
+    <div id="content">
+       body {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 4em;
+            font-size: 18px;
+            text-align: center;
+          }
+          p {
+            margin: 0 auto;
+          }
+          .logo_link {
+            width: 80px;
+          }
+          div.a {
+            text-align: center;
+          }      
+          div.b {
+            text-align: left;
+          }
+          
+          div.c {
+            text-align: right;
+          }
+
+          
+          div.c {
+            text-align: justify;
+          }
+          nav a {
+            padding:1em;
+            min-width: 120px;
+            text-decoration: none;
+            padding: 10px;
+            text-align: center
+          }
+          header {
+            text-align: center; 
+          }
+          .logo_link {
+            width: 80px;
+          }
+        #hero-box {
+            text-align: center;
+        }
+          h1 {
+            text-align: center;
+          }
+          h2 {
+            text-align: center;
+          }
+          h4 {
+            text-align: center;
+            background-color: #0096c7;
+            color: white;
+          }
+          .button-box {
+            text-align: center;
+          }
+          main section {
+            text-align: center;
+          }
+          #mountainsimg {
+            text-align: center;
+          }
+          <body>
+        <header>
+    
+#background {
+    height: 725px;
+}
+.home-title {
+    background-color: #0096c7;
+    color: white;
+}
+body{
+    background-color: #03045E;
+    color:white
+}
+header {
+    background-color: #0096c7;
+    color:white
+}
+nav a {
+    background-color: #03045E;
+    color: white;
+}
+nav a:hover {
+    background-color: #03045E;
+    color: white
+}
+.book {
+    background-color: #03045E;
+    color: white;
+    text-decoration: none;
+}
+.join {
+    background-color: #03045E;
+    color:white;
+    text-decoration: none;
+}
+.book:hover {
+    background-color: black;
+    color:white
+} 
+.join:hover {
+    background-color: #0096c7;
+    color:white
+}
+#background {
+    background-color: #03045E;
+    color:red
+}
+.msg {
+    background-color: #03045E;
+    color:white
+}
+.msg h2 {
+    background-color: #03045E;
+    color: white
+}
+footer {
+    background-color: #0096c7;
+    color:white
+}
+footer a {
+    background-color: #0096c7;
+    color:white;
+    text-decoration: none  
+}
+footer p {
+    font-size: 1.2em;
+    text-decoration: underline;
+}    
+.msg a {
+    background-color: #0096c7;
+    color: white 
+}
+        </footer>
+    </div>
+</body>
+          <section class="rapids-card">
+          <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
+          <img class="icon" src="images/oars.png" alt="oars icon">
+          <h2>Rapids</h2>
+      </section>
+      <div id="background"></div> 
+      <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+      <section class="msg">
+          <h2>More Than Just The Thrill</h2>
+          <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
+          <a class='join' href="rivers.html">Join Us</a>
+      </section>
+    </div>
+</body>
