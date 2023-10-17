@@ -1,22 +1,45 @@
+:root{
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alumni+Sans+Collegiate+One:ital@1&family=Croissant+One&display=swap');
+--primary-color: #0077B6  ;
+--secondary-color: #03045E ;
+--accent1-color: #0096c7;
+--accent2-color: white;
+
+--font1:"Abril Fatface";
+ --heading:"Alumni Sans Collegiate One";
+ --font2: "Croissant One";
+ 
+ border-top-color: #0077B6;
+ --headline-color-on-white: #0077b6;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #03045E; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #03045e  ;
+  --nav-link-color: #396E94;
+  --nav-background-color: white;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #0077b6;
+}
+
 
 <body>
     <div id="content">
-       body {
-            max-width: 1600px;
-            margin: 0 auto;
-            padding: 4em;
-            font-size: 18px;
-            text-align: center;
-          }
-          p {
-            margin: 0 auto;
-          }
-          .logo_link {
-            width: 80px;
-          }
+      <header>
+      body{
+        background-color: #0077b6;
+        color:white;
+        font-family: 'Alumni Sans Collegiate One';
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+       margin: 35px;
+      }
           div.a {
             text-align: center;
-          }      
+          }
+          
           div.b {
             text-align: left;
           }
@@ -24,20 +47,118 @@
           div.c {
             text-align: right;
           }
-
           
           div.c {
             text-align: justify;
           }
+          .logo_link {
+            width: 80px;
+          }     
           nav a {
-            padding:1em;
+            color: #03045E;
+            color: white;
             min-width: 120px;
             text-decoration: none;
-            padding: 10px;
-            text-align: center
+            text-align: center;
+            padding: 35px;
           }
+          nav a:hover {
+            background-color: #03045E;
+            color: white
+          }
+          .home-title h4 {
+            font-family: 'Alumni Sans Collegiate One';
+              font-size: 2em;
+              background-color: #0096c7;
+              color: white;
+          }
+        .book {
+          background-color: #03045E;
+          color: white;
+          text-decoration: none;
+          font-family: 'Alumni Sans Collegiate One';
+          font-size: 18px;
+          padding: 15px 30px;
+          margin-top: 50px;
+          border-radius: 5px;
+      }
+      .join {
+        background-color: #03045E;
+        color:white;
+        text-decoration: none;
+        font-family: 'Alumni Sans Collegiate One';
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
+      }
+      .book:hover {
+        background-color: black;
+        color:white
+      } 
+    .join:hover {
+        background-color: #0096c7;
+        color:white
+      }
+          #hero-msg h1 {
+            text-align: center;
+          }
+          #hero-msg h4 {
+            text-align: center;
+          }
+          .button-box{
+            text-align: center;
+          }
+          main section{
+            text-align: center;
+          }
+          #background {
+            height: 725px;
+            background-color: #03045E;
+          }
+          .msg {
+            background-color: #03045E;
+            color:white;
+            line-height: 1.5em;
+            padding: 35px;
+          }
+          .msg h2 {
+            background-color: #03045E;
+            color: white
+          } 
+          .msg p {
+            font-family: 'Alumni Sans Collegiate One';
+              font-size: .8em;
+              padding-bottom: 15px;
+              color: white;
+          }
+          footer {
+            background-color: #0096c7;
+            color:white;
+            padding: 25px 50px;
+            margin-top: 200px;
+          }
+          footer a {
+            background-color: #0096c7;
+            color:white;
+            text-decoration: none  
+          }
+          footer a :hover{
+            background-color: #0096c7;
+            color:white;
+            text-decoration: none  
+          }
+          footer p {
+            font-size: 1.2em;
+            text-decoration: underline;
+          }
+          footer p a:hover {
+            text-decoration: underline;
+          }  
           header {
             text-align: center; 
+            background-color: #03045E;
+            color: white
           }
           .logo_link {
             width: 80px;
@@ -65,93 +186,73 @@
           #mountainsimg {
             text-align: center;
           }
-          <body>
-        <header>
-    
-#background {
-    height: 725px;
+
+.icon{
+  padding-top: 10px;
 }
 .home-title {
+  font-family: 'Alumni Sans Collegiate One';
+    font-size: 2em;
     background-color: #0096c7;
     color: white;
 }
 body{
-    background-color: #03045E;
-    color:white
+    background-color: #0077b6;
+    color:white;
+    font-family: 'Alumni Sans Collegiate One';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color: #0096c7;
-    color:white
-}
-nav a {
-    background-color: #03045E;
-    color: white;
-}
-nav a:hover {
     background-color: #03045E;
     color: white
-}
-.book {
-    background-color: #03045E;
-    color: white;
-    text-decoration: none;
-}
-.join {
-    background-color: #03045E;
-    color:white;
-    text-decoration: none;
-}
-.book:hover {
-    background-color: black;
-    color:white
-} 
-.join:hover {
-    background-color: #0096c7;
-    color:white
 }
 #background {
     background-color: #03045E;
     color:red
 }
-.msg {
-    background-color: #03045E;
-    color:white
-}
-.msg h2 {
-    background-color: #03045E;
-    color: white
-}
 footer {
     background-color: #0096c7;
-    color:white
-}
-footer a {
-    background-color: #0096c7;
     color:white;
-    text-decoration: none  
+    padding: 25px 50px;
+    margin-top: 200px;
+
 }
-footer p {
-    font-size: 1.2em;
-    text-decoration: underline;
-}    
+footer .social img  {
+    padding-top: 15px;
+}  
 .msg a {
     background-color: #0096c7;
     color: white 
 }
+.home-title {
+  font-family: 'Abril Fatface';
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.msg p {
+  font-family: 'Alumni Sans Collegiate One';
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+main section img {
+  box-sizing: border-box;
+}
+.card-image {
+  border: 10px solid #d9c2a3;
+}
+.rivers-card {
+  margin: 200px 0;
+}
+.camping-card {
+  margin: 200px 0;
+}
+.rapids-card {
+  margin: 200px 0;
+}
+          
         </footer>
     </div>
-</body>
-          <section class="rapids-card">
-          <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
-          <img class="icon" src="images/oars.png" alt="oars icon">
-          <h2>Rapids</h2>
-      </section>
-      <div id="background"></div> 
-      <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
-      <section class="msg">
-          <h2>More Than Just The Thrill</h2>
-          <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
-          <a class='join' href="rivers.html">Join Us</a>
-      </section>
-    </div>
-</body>
+  <body>
