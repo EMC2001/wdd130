@@ -21,10 +21,6 @@
   --nav-hover-background-color: #0077b6;
 }
 
-
-<body>
-    <div id="content">
-      <header>
       body{
         background-color: #0077b6;
         color:white;
@@ -51,7 +47,7 @@
           div.c {
             text-align: justify;
           }
-          .logo_link {
+          .logo {
             width: 80px;
           }     
           nav a {
@@ -196,18 +192,8 @@
     background-color: #0096c7;
     color: white;
 }
-body{
-    background-color: #0077b6;
-    color:white;
-    font-family: 'Alumni Sans Collegiate One';
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-}
-header {
-    background-color: #03045E;
-    color: white
-}
+
+
 #background {
     background-color: #03045E;
     color:red
@@ -253,6 +239,4 @@ main section img {
   margin: 200px 0;
 }
           
-        </footer>
-    </div>
-  <body>
+    
