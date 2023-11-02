@@ -21,6 +21,10 @@
   --nav-hover-background-color: #0077b6;
 }
 
+      #content{
+        max-width: 1600px;
+        margin: 0 auto;
+      }
       body{
         background-color: #0077b6;
         color:white;
@@ -56,6 +60,7 @@
             align-self: center;
           }
           nav {
+            justify-self: center;
             display: flex;
             justify-content: space-around;
           }   
@@ -180,8 +185,7 @@
           }  
           header {
             display: grid;
-            grid-template-columns: 150px auto;
-            text-align: center; 
+            grid-template-columns: 150px auto; 
             background-color: #03045E;
             color: white
           }
@@ -217,6 +221,7 @@
 
 .icon{
   padding-top: 10px;
+  width: 80px;
 }
 .home-title {
   font-family: 'Alumni Sans Collegiate One';
@@ -228,6 +233,7 @@
 
 #background {
     background-color: #03045E;
+    height: 725px;
     color:red
 }
 footer {
@@ -289,6 +295,10 @@ main section img {
   grid-column: 8/10;
   grid-row: 2/3;
 }
+
+
+
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
@@ -318,8 +328,8 @@ main section img {
       margin: 50px auto;
       width: 60%;
   }
-  #background {
-      display: none;
+  #background{
+    display: none;
   }
   .mountains, .msg {
       width: 80%;
