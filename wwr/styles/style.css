@@ -66,7 +66,7 @@
             justify-content: space-around;
           }   
           nav a {
-            color: #03045E;
+            color: #0096c7;
             color: white;
             min-width: 120px;
             text-decoration: none;
@@ -74,7 +74,7 @@
             padding: 35px;
           }
           nav a:hover {
-            background-color: #03045E;
+            background-color: #0096c7;
             color: white
           }
           .home-title h4 {
@@ -141,8 +141,6 @@
           }
           .msg {
             background-color: #03045E;
-            color:white;
-            line-height: 1.5em;
             padding: 35px;
             grid-column: 6/10;
             grid-row: 6/7;
@@ -234,13 +232,6 @@
 
 
 
-footer {
-    background-color: #0096c7;
-    color:white;
-    padding: 25px 50px;
-    margin-top: 200px;
-
-}
 footer .social img  {
     padding-top: 15px;
 }  
@@ -254,23 +245,17 @@ footer .social img  {
   margin-top: 10px;
 }
 
-.msg p {
-  font-family: 'Alumni Sans Collegiate One';
-    font-size: .8em;
-    padding-bottom: 15px;
-}
 main section img {
   box-sizing: border-box;
 }
 .card-img{
   box-shadow: 5px 5px 10px #6f7364;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover {
   opacity: .6;
   transform: scale(1.1);
-}
-.card-image {
-  border: 10px solid #d9c2a3;
 }
 .rivers-card {
   margin: 200px 0;
@@ -293,7 +278,6 @@ main section img {
   grid-column: 8/10;
   grid-row: 2/3;
 }
-
 
 
 
@@ -320,14 +304,13 @@ main section img {
   }
   .home-title {
       font-size: 25px;
-      color: #6f7364;
   }
   .rivers-card, .camping-card, .rapids-card { 
       margin: 50px auto;
       width: 60%;
   }
-  #background{
-    display: none;
+  #background {
+      display: none;
   }
   .mountains, .msg {
       width: 80%;

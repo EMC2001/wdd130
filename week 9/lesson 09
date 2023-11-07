@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-9">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 09 Challenge</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .card{
+            max-width: 400 px;
+            margin: 0 auto;
+            border-radius: 10 px;
+        }
+    </style>
+</head>
+<body>
+    <section class="card"
+    <img src="";
+    <p class="post-time">3 weeks ago</p>
+    <p class="post-heading"> Post three</p>
