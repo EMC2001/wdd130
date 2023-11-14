@@ -184,3 +184,10 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+#page2-grid {
+  margin: 100px 0;
+  grid-column: 8/10;
+  grid-row: 2/3;
+  text-align: justify;
+}
