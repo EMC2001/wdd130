@@ -249,10 +249,22 @@ color: white;
 display: grid;
 grid-template-columns: repeat(10,1fr);
 }
-
-
-
-
+#history-img {
+  margin: 50px;
+}
+#history-text {
+  color: white;
+  margin: 35px;
+}
+#history-paragraph{
+  background-color: #03045E;
+  padding: 50px;
+  margin: 100px;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.p{
+  padding: 35px;
+}
 footer .social img  {
 padding-top: 15px;
 }  
@@ -269,42 +281,6 @@ margin-top: 10px;
 main section img {
 box-sizing: border-box;
 }
-.card-img{
-width: 100%;
-box-shadow: 5px 5px 10px #6f7364;
-transition: transform .5s;
-box-shadow: 5px 5px 10px #6f7364;
-}
-.card-img:hover {
-opacity: .6;
-transform: scale(1.1);
-}
-.rivers-card {
-margin: 200px 0;
-grid-column: 2/4;
-grid-row: 2/3;
-}
-.mountains {
-width: 100%;
-grid-column: 2/7;
-grid-row: 5/8;
-box-shadow: 5px 5px 10px #6f7364;
-}
-.camping-card {
-margin: 200px 0;
-grid-column: 5/7;
-grid-row: 2/3;
-}
-.rapids-card {
-margin: 200px 0;
-grid-column: 8/10;
-grid-row: 2/3;
-}
-#hero-img{
-width: 100%;
-}
-
-
 
 @media screen and (max-width: 900px) {
 #hero, .home-grid {
