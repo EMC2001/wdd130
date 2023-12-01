@@ -18,7 +18,7 @@
         </nav>
     </header>
 </body>
-<main>
+<main>    
     <div id="history-img">
         <img src="images/volleyfirst.jpg" alt="history">
     </div>
@@ -28,6 +28,85 @@
     <p>Originated in Holyoke, Massachussets in 1985. It was created by William G. Morgan and it was thought as a combination of sports like tennis, basketball and handball.The sport was originally called "Mintonette", the name of the sport was later changed during a demonstration game when someone remarked the players looked like they were "volleying" the ball from one side to another. The sport was first included in the Olympic games in 1964 for both men and women categories.Volleyball has had various changes and variations troughout history but the most famous one definitely is Beach Volleyball which eventually became an Olympic Sport in 1996.</p>
     </div>
 </section>
+<style>
+  .accordion {
+    background-color: #03045E;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #0096c7; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color:#6f7364;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796";
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>Evolution of Volleyball troughout history</h2>
+  
+  <button class="accordion">1912</button>
+  <div class="panel">
+    <p>In 1912, the establishment of six players per side and rotation before the serve</p>
+  </div>
+  
+  <button class="accordion">1920</button>
+  <div class="panel">
+    <p>In 1920, only three hits per side were introduced</p>
+  </div>
+  
+  <button class="accordion">1925</button>
+  <div class="panel">
+    <p>In 1925, basic substitution rules and limitations were introduced</p>
+  </div>
+
+  <button class="accordion">1998</button>
+  <div class="panel">
+    <p>The libero position in volleyball was introduced in 1998 to improve ball control and create more exciting rallies.</p>
+  </div>
+  
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
 </main>
     <footer>
         <p>Volley Life &copy; 2023 - Emiliano Medina</p>
