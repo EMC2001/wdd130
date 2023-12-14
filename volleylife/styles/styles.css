@@ -291,6 +291,86 @@ h3 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
+.first-card {
+  margin: 200px 0;
+  grid-column: 2/10;
+  grid-row: 1/10;
+  width: 150px;
+  height: 150px;
+}
+.second-card {
+  margin: 200px 0;
+  grid-column: 4/10;
+  grid-row: 1/10;
+  width: 150px;
+  height: 150px;
+}
+.third-card {
+  margin: 200px 0;
+  grid-column: 6/10;
+  grid-row: 1/10;
+  width: 150px;
+  height: 150px;
+}
+.fourth-card {
+  margin: 200px 0;
+  grid-column: 8/10;
+  grid-row: 1/10;
+  width: 150px;
+  height: 150px;
+}
+.fifth-card {
+  margin: 200px 0;
+  grid-column: 10/10;
+  grid-row: 1/10;
+  width: 150px;
+  height: 150px;
+}
+.sixth-card {
+  margin: 200px 0;
+  grid-column: 2/10;
+  grid-row: 2/3;
+  width: 150px;
+  height: 150px;
+}
+.seventh-card {
+  margin: 200px 0;
+  grid-column: 4/10;
+  grid-row: 2/3;
+  width: 150px;
+  height: 150px;
+}
+.eight-card {
+  margin: 200px 0;
+  grid-column: 6/10;
+  grid-row: 2/3;
+  width: 150px;
+  height: 150px;
+}
+.ninth-card {
+  margin: 200px 0;
+  grid-column: 8/10;
+  grid-row: 2/3;
+  width: 150px;
+  height: 150px;
+}
+.tenth-card {
+  margin: 200px 0;
+  grid-column: 10/10;
+  grid-row: 2/3;
+  width: 150px;
+  height: 150px;
+}
+#hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(11,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
 #right_box{
   background-color: #03045E;
   padding: 2%;
