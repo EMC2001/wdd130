@@ -4,38 +4,28 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Abril+Fatface&family=Geologica&family=IBM+Plex+Mono:wght@500&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #9d0208  ;
-  --secondary-color: #f48c06 ;
-  --accent1-color: #e85d04;
-  --accent2-color: #370617;
-  --third-color: #6a040f ;
-  --fourth-color: #9d0208 ;
-  --fifth-color: #d00000 ;
-  --sixth-color: #dc2f02 ;
-  --seventh-color: #e85d04 ;
-  --eight-color: #f48c06 ;
-  --ninth-color: #faa307 ;
-  --tenth-color: #ffba08 ;
+  --primary-color: #6a040f;  /* Dark Red */
+  --secondary-color: #e85d04; /* Orange */
+  --accent1-color: #f48c06; /* Lighter Orange */
+  --accent2-color: #003049; /* Dark Blue */
+  --third-color: #faa307; /* Yellow */
+  --fourth-color: #ffffff; /* White */
+  --fifth-color: #03045E; /* Deep Blue */
+  --sixth-color: #000000; /* Black */
 
+  /* Typography Colors */
+  --headline-color-on-white: #03045E;  /* Headlines on a white background */
+  --headline-color-on-color: #ffffff;  /* Headlines on a dark background */
+  --paragraph-color-on-white: #000000; /* Paragraph text on a white background */
+  --paragraph-color-on-color: #ffffff; /* Paragraph text on a colored background */
 
-
-
-  /* change the values below to your chosen font(s) */
-  --heading-font: "Abril Fatface";
-  --paragraph-font: "IBM Plex Mono";
-
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #6a040f ;  /* headlines on a white background */ 
-  --headline-color-on-color: #6a040f; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #f48c06  ;
-  --nav-link-color: #6a040f;
-  --nav-background-color: #ffba08;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #6a040f;
+  /* Background Color */
+  --nav-background-color: #f48c06;  /* Navigation background */
+  --nav-link-color: #ffffff;  /* Link color in navbar */
+  --nav-hover-link-color: #003049; /* Dark blue on hover */
 }
+
+
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -45,7 +35,7 @@ Fonts are separated by a | */
   margin: 0 auto;
 }
 body{
-  background-color: #ffba08;
+  background-color: #ffffff;
   color:white;
   font-family: 'Croissant One';
   font-size: 22px;
